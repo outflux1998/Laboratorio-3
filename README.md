@@ -15,10 +15,10 @@
 # Diagramas
 
 ## Diagrama de Caso de Uso
-![Diagrama de Caso de Uso]()
+![Diagrama de Caso de Uso](./docs/img/Caso%20de%20Uso.png)
 
 ## Diagrama de Implementação
-![Diagrama de Implementação]()
+![Diagrama de Implementação](./docs/img/Diagrama%20de%20Implementa%C3%A7%C3%A3o.png)
 
 ## Diagrama de Componentes
 ![Diagrama de Componentes]()
