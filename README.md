@@ -48,8 +48,8 @@
 
 # Tarefas
 ## Sprint 1
-- [ ] Fazer Diagrama de Caso de Uso.
-- [ ] Fazer Diagrama de Implementação.
+- [x] Fazer Diagrama de Caso de Uso.
+- [x] Fazer Diagrama de Implementação.
 - [ ] Fazer Diagrama de Componentes.
 - [ ] Fazer Diagrama de Classes.
 - [ ] Definir Tecnologias.
