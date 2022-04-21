@@ -21,7 +21,7 @@
 ![Diagrama de Implementação](./docs/img/Diagrama%20de%20Implementa%C3%A7%C3%A3o.png)
 
 ## Diagrama de Componentes
-![Diagrama de Componentes]()
+![Diagrama de Componentes](./docs/img/Diagrama%20de%20Componentes.png)
 
 ## Diagrama de Classes
 ![Diagrama de Classes]()
