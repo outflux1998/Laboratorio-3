@@ -50,7 +50,7 @@
 ## Sprint 1
 - [x] Fazer Diagrama de Caso de Uso.
 - [x] Fazer Diagrama de Implementação.
-- [ ] Fazer Diagrama de Componentes.
+- [x] Fazer Diagrama de Componentes.
 - [ ] Fazer Diagrama de Classes.
 - [ ] Definir Tecnologias.
 - [ ] Ajustes Finais.
