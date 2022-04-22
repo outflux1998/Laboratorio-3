@@ -17,14 +17,23 @@
 ## Diagrama de Caso de Uso
 ![Diagrama de Caso de Uso](./docs/img/Caso%20de%20Uso.png)
 
+#### [Back](#sumário)
+
 ## Diagrama de Implementação
 ![Diagrama de Implementação](./docs/img/Diagrama%20de%20Implementa%C3%A7%C3%A3o.png)
+
+#### [Back](#sumário)
 
 ## Diagrama de Componentes
 ![Diagrama de Componentes](./docs/img/Diagrama%20de%20Componentes.png)
 
+#### [Back](#sumário)
+
 ## Diagrama de Classes
 ![Diagrama de Classes](./docs/img/Diagrama%20de%20Classes.png)
+
+#### [Back](#sumário)
+---
 
 # Historia de Usuários e Regras de Negócio
 
@@ -55,6 +64,7 @@
 - R2 -> A cada semestre é adicionado 1000 moedas ao saldo dos professores. 
 - R3 -> Ao gerar o Cupom ele deve ser enviado ao aluno por email.
 
+#### [Back](#sumário)
 ---
 
 # Tarefas
@@ -65,9 +75,13 @@
 - [x] Fazer Diagrama de Componentes.
 - [x] Fazer Diagrama de Classes.
 
+#### [Back](#sumário)
+
 ## Sprint 2
 - [ ] Mapeamento do Diagrama de Classe para o Modelo ER.
 - [ ] Diagramas de Sequências do Sistema para cada um dos casos de uso modelados na Sprint 01.
+
+#### [Back](#sumário)
 
 ## Sprint 3
 - [ ] Diagrama de Sequências relativo aos CRUDs de aluno e empresa parceira. 
@@ -97,3 +111,5 @@ Observação: Referencie com códigos para as Histórias de Usuário (US1, US2, 
             - [ ] Read conta de Aluno. -> U3
             - [ ] Update informações de Aluno. -> U5
             - [ ] Delete conta de Aluno. -> U4
+
+#### [Back](#sumário)
