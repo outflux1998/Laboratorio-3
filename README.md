@@ -9,7 +9,7 @@
 - [Classes](#diagrama-de-classes)
 ### [Historia de Usuário](#historia-de-usuários-e-regras-de-negócio)
 
-### [Tarefas](#tarefas)
+### [Tarefas](#tarefas-1)
 ---
 
 # Diagramas
@@ -27,6 +27,7 @@
 ![Diagrama de Classes](./docs/img/Diagrama%20de%20Classes.png)
 
 # Historia de Usuários e Regras de Negócio
+
 ## Historia de Usuários
 - I1 -> Eu como Intituição gostaria de exportar .csv para cadastro de professores.
 - I2 -> Eu como Intituição gostaria de destivar uma conta professor.
@@ -48,10 +49,13 @@
 
 - Pa1 -> Eu como Parceiro gostaria de criar Oferta.
 - Pa2 -> Eu como Parceiro gostaria tornar Cupom invalido.
+
 ## Regras de negocio
 - R1 -> Todo login deve ser autentificado.
 - R2 -> A cada semestre é adicionado 1000 moedas ao saldo dos professores. 
 - R3 -> Ao gerar o Cupom ele deve ser enviado ao aluno por email.
+
+---
 
 # Tarefas
 
