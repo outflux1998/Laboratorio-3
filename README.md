@@ -7,7 +7,7 @@
 - [Implementação](#diagrama-de-implementação)
 - [Componentes](#diagrama-de-componentes)
 - [Classes](#diagrama-de-classes)
-### [Historia de Usuário](#diagramas)
+### [Historia de Usuário](#historia-de-usuários-e-regras-de-negócio)
 
 ### [Tarefas](#tarefas)
 ---
@@ -54,6 +54,7 @@
 - R3 -> Ao gerar o Cupom ele deve ser enviado ao aluno por email.
 
 # Tarefas
+
 ## Sprint 1
 - [x] Fazer Diagrama de Caso de Uso.
 - [x] Fazer Diagrama de Implementação.
