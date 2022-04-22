@@ -24,37 +24,41 @@
 ![Diagrama de Componentes](./docs/img/Diagrama%20de%20Componentes.png)
 
 ## Diagrama de Classes
-![Diagrama de Classes]()
+![Diagrama de Classes](./docs/img/Diagrama%20de%20Classes.png)
 
 # Historia de Usuários e Regras de Negócio
 ## Historia de Usuários
 - I1 -> Eu como Intituição gostaria de exportar .csv para cadastro de professores.
-- Pa1 -> Eu como Parceiro gostaria de criar Ofertas (nome, descrição, foto do produto, instituição para qual forneceu oferta).
-- Pa2 -> Eu como Parceiro gostaria de invalidar códigos gastos após a utilização do aluno.
-- Pr1 -> Eu como Professor gostaria de ver meu saldo.
-- Pr2 -> Eu como Professor gostaria de ver meu extrato (historico de transições).
-- Pr3 -> Eu como Professor gostaria de destribuir moedas aos alunos.
-- A1 -> Eu como Aluno gostaria de ver meu saldo.
-- A2 -> Eu como Aluno gostaria de ver meu extrato (historico de transições).
-- A3 -> Eu como Aluno gostaria de ver ofertas.
-- A4 -> Eu como Aluno gostaria de comprar ofertas.
-- A5 -> Eu como Aluno gostaria de receber email com código e expecificações de como resgatalo.
+- I2 -> Eu como Intituição gostaria de destivar uma conta professor.
+
+- U1 -> Eu como usuário gostaria de fazer cadastro.
+- U2 -> Eu como Usuário gostaria de fazer login.
+- U3 -> eu como Usuário gostaria de ver a conta
+- U4 -> Eu como Usuário gostaria de deletar a conta.
+- U5 -> Eu como Usuário gostaria de editar as informações de conta.
+
+- C1 -> Eu como Cliente gostaria de ver meu Saldo de moedas.
+- C2 -> Eu como Cliente gostaria de ver meu historico e extrato.
+
+- P1 -> Eu como Professor gostaria de fazer transferencias aos meus alunos.
+
+- A1 -> Eu como Aluno gostaria de comprar Ofertas.
+- A2 -> Eu como Aluno gostaria de ver Cupom.
+- A3 -> Eu como Aluno gostaria de receber Cupom por email.
+
+- Pa1 -> Eu como Parceiro gostaria de criar Oferta.
+- Pa2 -> Eu como Parceiro gostaria tornar Cupom invalido.
 ## Regras de negocio
-- R1 -> Todos os Usuários devem ter uma conta e conseguir fazer cadastro.
-- R2 -> Todos os Usuários devem ter uma conta e conseguir fazer login.
-- R3 -> Todos os Logins devem ser autenticados.
-- R4 -> Professores recebem 1000 moedas por simestre (Valor Acomulavel).
-- R5 -> Para enviar moedas, o professor deve possuir saldo suficiente, indicando qual aluno deverá receber o montante, bem como o motivo pelo qual ele está sendo reconhecido (uma mensagem aberta, obrigatória).
+- R1 -> Todo login deve ser autentificado.
+- R2 -> A cada semestre é adicionado 1000 moedas ao saldo dos professores. 
+- R3 -> Ao gerar o Cupom ele deve ser enviado ao aluno por email.
 
 # Tarefas
 ## Sprint 1
 - [x] Fazer Diagrama de Caso de Uso.
 - [x] Fazer Diagrama de Implementação.
 - [x] Fazer Diagrama de Componentes.
-- [ ] Fazer Diagrama de Classes.
-- [ ] Definir Tecnologias.
-- [ ] Ajustes Finais.
-- [ ] Listar tarefas de Sprint 2.
+- [x] Fazer Diagrama de Classes.
 
 ## Sprint 2
 - [ ] Mapeamento do Diagrama de Classe para o Modelo ER.
@@ -66,25 +70,25 @@ Observação: Referencie com códigos para as Histórias de Usuário (US1, US2, 
 - É necessário manter consistência com os demais diagramas, principalmente o de classes (ou seja, a modelagem de interações ajuda a refinar o diagrama de classes).
 - [ ] Seminário de Tecnologias
 - [ ] CRUDs de aluno e empresa parceira
-    - [ ] Criar LandingPage
-    - [ ] Criar Tela De Cadastro
-        - [ ] Criar Cadastro de Parceiro -> R1
-        - [ ] Salvar conta do Parceiro no Banco de dados.
-        - [ ] Criar Cadastro de Aluno -> R1
-        - [ ] Salvar conta do Aluno no Banco de dados.
-    - [ ] Criar Tela de Login -> R1
-        - [ ] Login de Parceiro -> R1
-        - [ ] Login de Aluno -> R1
-        - [ ] Autentifição de Login -> R3
+    - [ ] Criar LandingPage 
+    - [ ] Criar Tela De Cadastro -> U1
+        - [ ] Criar Cadastro de Parceiro -> U1
+        - [ ] Salvar conta do Parceiro no Banco de dados. -> R1
+        - [ ] Criar Cadastro de Aluno -> U1
+        - [ ] Salvar conta do Aluno no Banco de dados. -> R1
+    - [ ] Criar Tela de Login -> U2
+        - [ ] Login de Parceiro -> U2
+        - [ ] Login de Aluno -> U2
+        - [ ] Autentifição de Login -> R1
     
     - [ ] Tela de Parceiro
-        - [ ] Tela de Configurações de Conta Parceiro
-            - [ ] Read conta de Parceiro.
-            - [ ] Update informações de Parceiro.
-            - [ ] Delete conta de Parceiro.
+        - [ ] Tela de Configurações de Conta Parceiro -> U3
+            - [ ] Read conta de Parceiro. -> U3
+            - [ ] Update informações de Parceiro. -> U5
+            - [ ] Delete conta de Parceiro. -> U4
 
     - [ ] Tela de Aluno 
-        - [ ] Tela de Configurações de Conta Aluno
-            - [ ] Read conta de Aluno.
-            - [ ] Update informações de Aluno.
-            - [ ] Delete conta de Aluno.
+        - [ ] Tela de Configurações de Conta Aluno -> U3
+            - [ ] Read conta de Aluno. -> U3
+            - [ ] Update informações de Aluno. -> U5
+            - [ ] Delete conta de Aluno. -> U4
