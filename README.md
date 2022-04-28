@@ -43,7 +43,7 @@
 
 - U1 -> Eu como usuário gostaria de fazer cadastro.
 - U2 -> Eu como Usuário gostaria de fazer login.
-- U3 -> eu como Usuário gostaria de ver a conta
+- U3 -> Eu como Usuário gostaria de ver a conta
 - U4 -> Eu como Usuário gostaria de deletar a conta.
 - U5 -> Eu como Usuário gostaria de editar as informações de conta.
 
@@ -54,10 +54,10 @@
 
 - A1 -> Eu como Aluno gostaria de comprar Ofertas.
 - A2 -> Eu como Aluno gostaria de ver Cupom.
-- A3 -> Eu como Aluno gostaria de receber Cupom por email.
 
 - Pa1 -> Eu como Parceiro gostaria de criar Oferta.
-- Pa2 -> Eu como Parceiro gostaria tornar Cupom invalido.
+- Pa2 -> Eu como Parceiro gostaria de verificar se um Cupom é válido.
+- Pa3 -> Eu como Parceiro gostaria tornar Cupom invalido.
 
 ## Regras de negocio
 - R1 -> Todo login deve ser autentificado.
