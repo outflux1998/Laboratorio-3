@@ -144,7 +144,7 @@
 
 ## Sprint 2
 - [ ] Mapeamento do Diagrama de Classe para o Modelo ER.
-- [ ] Diagramas de Sequências do Sistema para cada um dos casos de uso modelados na Sprint 01.
+- [x] Diagramas de Sequências do Sistema para cada um dos casos de uso modelados na Sprint 01.
 
 #### [Back](#sumário)
 
