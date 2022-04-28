@@ -7,6 +7,13 @@
 - [Implementação](#diagrama-de-implementação)
 - [Componentes](#diagrama-de-componentes)
 - [Classes](#diagrama-de-classes)
+- [Seguencia](#diagramas-de-seguencia)
+    - [Aluno](#aluno)
+    - [Cliente](#)
+    - [Instituição](#)
+    - [Parceiro](#)
+    - [Professor](#)
+    - [Usuário](#)
 ### [Historia de Usuário](#historia-de-usuários-e-regras-de-negócio)
 
 ### [Tarefas](#tarefas-1)
@@ -32,6 +39,64 @@
 ## Diagrama de Classes
 ![Diagrama de Classes](./docs/img/Diagrama%20de%20Classes.png)
 
+#### [Back](#sumário)
+
+## Diagramas de Seguencia
+## Aluno
+### A1
+![Diagrama de Seguencia - A1](./docs/img/Diagramas%20de%20Seguencia/Aluno-A%23/A1.png)
+#### [Back](#sumário)
+### A2
+![Diagrama de Seguencia - A2](./docs/img/Diagramas%20de%20Seguencia/Aluno-A%23/A2.png)
+#### [Back](#sumário)
+
+## Cliente
+### C1
+![Diagrama de Seguencia - C1](./docs/img/Diagramas%20de%20Seguencia/Cliente-C%23/C1.png)
+#### [Back](#sumário)
+### C2
+![Diagrama de Seguencia - C2](./docs/img/Diagramas%20de%20Seguencia/Cliente-C%23/C2.png)
+#### [Back](#sumário)
+
+## Instituição
+### I1
+![Diagrama de Seguencia - I1](./docs/img/Diagramas%20de%20Seguencia/Institui%C3%A7%C3%A3o-I%23/I1.png)
+#### [Back](#sumário)
+### I2
+![Diagrama de Seguencia - I2](./docs/img/Diagramas%20de%20Seguencia/Institui%C3%A7%C3%A3o-I%23/I2.png)
+#### [Back](#sumário)
+
+## Parceiro
+### Pa1
+![Diagrama de Seguencia - Pa1](./docs/img/Diagramas%20de%20Seguencia/Parceiro-Pa%23/Pa1.png)
+#### [Back](#sumário)
+### Pa2
+![Diagrama de Seguencia - Pa2](./docs/img/Diagramas%20de%20Seguencia/Parceiro-Pa%23/Pa2.png)
+#### [Back](#sumário)
+### Pa3
+![Diagrama de Seguencia - Pa3](./docs/img/Diagramas%20de%20Seguencia/Parceiro-Pa%23/Pa3.png)
+#### [Back](#sumário)
+
+## Professor
+### P1
+![Diagrama de Seguencia - P1](./docs/img/Diagramas%20de%20Seguencia/Professor-P%23/P1.png)
+#### [Back](#sumário)
+
+## Usuário
+### U1
+![Diagrama de Seguencia - U1](./docs/img/Diagramas%20de%20Seguencia/Usu%C3%A1rio-U%23/U1.png)
+#### [Back](#sumário)
+### U2
+![Diagrama de Seguencia - U2](./docs/img/Diagramas%20de%20Seguencia/Usu%C3%A1rio-U%23/U2.png)
+#### [Back](#sumário)
+### U3
+![Diagrama de Seguencia - U3](./docs/img/Diagramas%20de%20Seguencia/Usu%C3%A1rio-U%23/U3.png)
+#### [Back](#sumário)
+### U4
+![Diagrama de Seguencia - U4](./docs/img/Diagramas%20de%20Seguencia/Usu%C3%A1rio-U%23/U4.png)
+#### [Back](#sumário)
+### U5
+![Diagrama de Seguencia - U5](./docs/img/Diagramas%20de%20Seguencia/Usu%C3%A1rio-U%23/U5.png)
 #### [Back](#sumário)
 ---
 
