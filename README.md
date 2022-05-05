@@ -15,6 +15,7 @@
     - [Professor](#)
     - [Usuário](#)
 ### [Historia de Usuário](#historia-de-usuários-e-regras-de-negócio)
+### [Seminário](./seminario/README.md/#seminário-net)
 ---
 
 # Diagramas
