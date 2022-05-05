@@ -15,8 +15,6 @@
     - [Professor](#)
     - [Usuário](#)
 ### [Historia de Usuário](#historia-de-usuários-e-regras-de-negócio)
-
-### [Tarefas](#tarefas-1)
 ---
 
 # Diagramas
@@ -128,53 +126,5 @@
 - R1 -> Todo login deve ser autentificado.
 - R2 -> A cada semestre é adicionado 1000 moedas ao saldo dos professores. 
 - R3 -> Ao gerar o Cupom ele deve ser enviado ao aluno por email.
-
-#### [Back](#sumário)
----
-
-# Tarefas
-
-## Sprint 1
-- [x] Fazer Diagrama de Caso de Uso.
-- [x] Fazer Diagrama de Implementação.
-- [x] Fazer Diagrama de Componentes.
-- [x] Fazer Diagrama de Classes.
-
-#### [Back](#sumário)
-
-## Sprint 2
-- [x] Mapeamento do Diagrama de Classe para o Modelo ER.
-- [x] Diagramas de Sequências do Sistema para cada um dos casos de uso modelados na Sprint 01.
-
-#### [Back](#sumário)
-
-## Sprint 3
-- [ ] Diagrama de Sequências relativo aos CRUDs de aluno e empresa parceira. 
-Observação: Referencie com códigos para as Histórias de Usuário (US1, US2, ...) relativas aos CRUDS. 
-- É necessário manter consistência com os demais diagramas, principalmente o de classes (ou seja, a modelagem de interações ajuda a refinar o diagrama de classes).
-- [ ] Seminário de Tecnologias
-- [ ] CRUDs de aluno e empresa parceira
-    - [ ] Criar LandingPage 
-    - [ ] Criar Tela De Cadastro -> U1
-        - [ ] Criar Cadastro de Parceiro -> U1
-        - [ ] Salvar conta do Parceiro no Banco de dados. -> R1
-        - [ ] Criar Cadastro de Aluno -> U1
-        - [ ] Salvar conta do Aluno no Banco de dados. -> R1
-    - [ ] Criar Tela de Login -> U2
-        - [ ] Login de Parceiro -> U2
-        - [ ] Login de Aluno -> U2
-        - [ ] Autentifição de Login -> R1
-    
-    - [ ] Tela de Parceiro
-        - [ ] Tela de Configurações de Conta Parceiro -> U3
-            - [ ] Read conta de Parceiro. -> U3
-            - [ ] Update informações de Parceiro. -> U5
-            - [ ] Delete conta de Parceiro. -> U4
-
-    - [ ] Tela de Aluno 
-        - [ ] Tela de Configurações de Conta Aluno -> U3
-            - [ ] Read conta de Aluno. -> U3
-            - [ ] Update informações de Aluno. -> U5
-            - [ ] Delete conta de Aluno. -> U4
 
 #### [Back](#sumário)
