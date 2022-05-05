@@ -1,22 +1,27 @@
+<style> 
+    underline{
+        text-decoration: underline;
+    }
+</style>
+
 # Mapeamento Modelo Relacional
+NaturalPersonUser(@id, CPF, Wallet, <underline>idUser</underline>)
 
-NaturalPersonUser(@id, CPF, Wallet, idUser)
+Student(@id, SSN, Address, CollegeProgram, BankAccount, <underline>idNaturalPersonUser</underline>)
 
-Student(@id, SSN, Address, CollegeProgram, BankAccount, idNaturalPersonUser)
-
-Teacher(@id, department, BankAccount, idNaturalPersonUser)
+Teacher(@id, department, BankAccount, <underline>idNaturalPersonUser</underline>)
 
 User(@id, Name, Email, Password)
 
-LegalPersonUser(@id, CNPJ, idUser, idInstitution)
+LegalPersonUser(@id, CNPJ, <underline>idUser</underline>, <underline>idInstitution</underline>)
 
-Partner(@id, Name, idOffer)
+Partner(@id, Name, <underline>idOffer</underline>)
 
-Offer(@id, Name, Cost, idCoupon)
+Offer(@id, Name, Cost, <underline>idCoupon</underline>)
 
-Institution(@id, Name, idStudent, idOffer)
+Institution(@id, Name, <underline>idStudent</underline>, <underline>idOffer</underline>)
 
-History(@id, Name, idBankAccount)
+History(@id, Name, <underline>idBankAccount</underline>)
 
 BankAccount(@id, Coins)
 
