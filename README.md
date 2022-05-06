@@ -7,7 +7,7 @@
 - [Implementação](#diagrama-de-implementação)
 - [Componentes](#diagrama-de-componentes)
 - [Classes](#diagrama-de-classes)
-- [Mapeamento Modelo relacional](./docs/Mapeamento%20Diagrama%20De%20Classe%20Modelo%20Relacional.md)
+- [Mapeamento Modelo relacional](./docs/Mapeamento%20Modelo%20Relacional.md)
 - [Sequência](#diagramas-de-sequência)
     - [Aluno](#aluno)
     - [Cliente](#cliente)
