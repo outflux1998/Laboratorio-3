@@ -8,6 +8,7 @@
 - [Componentes](#diagrama-de-componentes)
 - [Classes](#diagrama-de-classes)
 - [Mapeamento Modelo relacional](./docs/Mapeamento%20Modelo%20Relacional.md)
+- [Sequência Sistema](#diagramas-de-sequência-sistema)
 - [Sequência](#diagramas-de-sequência)
     - [Aluno](#aluno)
     - [Cliente](#cliente)
@@ -27,20 +28,35 @@
 
 #### [Back](#sumário)
 
+---
+
 ## Diagrama de Implementação
 ![Diagrama de Implementação](./docs/img/Diagrama%20de%20Implementa%C3%A7%C3%A3o.png)
 
 #### [Back](#sumário)
+
+---
 
 ## Diagrama de Componentes
 ![Diagrama de Componentes](./docs/img/Diagrama%20de%20Componentes.png)
 
 #### [Back](#sumário)
 
+---
+
 ## Diagrama de Classes
 ![Diagrama de Classes](./docs/img/Diagrama%20de%20Classes.png)
 
 #### [Back](#sumário)
+
+---
+
+## Diagramas de Sequência Sistema
+### CRUD Aluno
+![CRUD Aluno](./docs/img/Diagrama%20de%20Sequencia%20Sistema/Aluno/CRUD%20Aluno.png)
+#### [Back](#sumário)
+
+---
 
 ## Diagramas de Sequência
 ## Aluno
@@ -85,7 +101,6 @@
 ![Diagrama de Sequência - U3, U4, U5](./docs/img/Diagramas%20de%20Sequencia/Usu%C3%A1rio-U%23/U3_U4_U5.png)
 #### [Back](#sumário)
 ---
-
 # Historia de Usuários e Regras de Negócio
 
 ## Historia de Usuários
